@@ -18,6 +18,22 @@ The original MIT license and copyright notice are retained in `LICENSE`. See
 `docs/PUBLIC_RELEASE.md` for the community-release scope, installation order, testing status and
 upstream handoff text.
 
+## Companion mods
+
+### Reinforced Minecarts
+
+[Reinforced Minecarts](https://github.com/mavrikakis9099-boop/reinforced-minecarts)
+is an independent companion mod that extends the Reinforced Storage concept
+to minecarts.
+
+It adds Copper, Iron, Gold, Diamond and Netherite chest minecarts with
+storage capacities matching their Reinforced Chests tiers.
+
+Reinforced Minecarts uses the Reinforced Chests 26.2 community port from
+this repository as a dependency, but is developed and released separately.
+
+➡️ [View Reinforced Minecarts on GitHub](https://github.com/mavrikakis9099-boop/reinforced-minecarts)
+
 ## Primary requirement
 
 Existing 1.21.11 worlds must load existing reinforced storage blocks/items without registry remapping or inventory loss.
@@ -85,24 +101,6 @@ texture IDs. Enable it when a dark/global resource pack should style these block
 return to the tier-colored reinforced skins. Put the dark/global pack above the bridge and the
 reinforced retexture packs below it, then press F3+T. The bridge is a resource pack, not a jar, and
 does not alter world data.
-
-## Extension Mod
-
-### Reinforced Minecarts
-
-[Reinforced Minecarts](../../releases/latest) is a separate Fabric add-on for the Reinforced Chests 26.2 community port.
-
-It adds five vanilla-like chest minecart tiers:
-
-- Copper Minecart — 45 slots
-- Iron Minecart — 54 slots
-- Gold Minecart — 81 slots
-- Diamond Minecart — 108 slots
-- Netherite Minecart — 108 slots
-
-Reinforced Minecarts requires Reinforced Chests and is released separately from the core storage-port modules.
-
-This is an unofficial community extension and is not an official Aton-Kish release.
 
 ## Non-negotiable compatibility rules
 
