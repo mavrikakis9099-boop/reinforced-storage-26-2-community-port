@@ -86,6 +86,24 @@ return to the tier-colored reinforced skins. Put the dark/global pack above the 
 reinforced retexture packs below it, then press F3+T. The bridge is a resource pack, not a jar, and
 does not alter world data.
 
+## Extension Mod
+
+### Reinforced Minecarts
+
+[Reinforced Minecarts](../../releases/latest) is a separate Fabric add-on for the Reinforced Chests 26.2 community port.
+
+It adds five vanilla-like chest minecart tiers:
+
+- Copper Minecart — 45 slots
+- Iron Minecart — 54 slots
+- Gold Minecart — 81 slots
+- Diamond Minecart — 108 slots
+- Netherite Minecart — 108 slots
+
+Reinforced Minecarts requires Reinforced Chests and is released separately from the core storage-port modules.
+
+This is an unofficial community extension and is not an official Aton-Kish release.
+
 ## Non-negotiable compatibility rules
 
 1. Preserve original mod IDs and namespace identifiers unless 26.2 makes an identifier impossible.
